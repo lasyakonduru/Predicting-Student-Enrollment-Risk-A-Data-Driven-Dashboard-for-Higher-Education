@@ -14,10 +14,10 @@ Universities collect large volumes of data related to applicants, engagement act
 
 This dashboard consolidates those signals into a single interactive platform that:
 
-• Tracks the admissions funnel
-• Identifies risk patterns among students
-• Explains why students are flagged as high risk
-• Simulates interventions to reduce enrollment and retention risk
+- Tracks the admissions funnel
+- Identifies risk patterns among students
+- Explains why students are flagged as high risk
+- Simulates interventions to reduce enrollment and retention risk
 
 The goal is to provide **clear, actionable insights** that support earlier intervention and better enrollment management.
 
