@@ -27,20 +27,15 @@ The goal is to provide **clear, actionable insights** that support earlier inter
 
 The dashboard was created to support the following objectives:
 
-1. **Improve Enrollment Visibility**
-   Track the progression of students through the admissions funnel.
+1. **Improve Enrollment Visibility** - Track the progression of students through the admissions funnel.
 
-2. **Identify At-Risk Students Early**
-   Use engagement indicators to estimate the likelihood of enrollment and first-term retention.
+2. **Identify At-Risk Students Early** - Use engagement indicators to estimate the likelihood of enrollment and first-term retention.
 
-3. **Explain Risk Drivers**
-   Show the specific factors contributing to student risk levels.
+3. **Explain Risk Drivers** - Show the specific factors contributing to student risk levels.
 
-4. **Support Intervention Planning**
-   Help counselors determine what actions could reduce risk.
+4. **Support Intervention Planning** - Help counselors determine what actions could reduce risk.
 
-5. **Enable Data-Driven Decisions**
-   Provide administrators with clear metrics and trends to guide strategy.
+5. **Enable Data-Driven Decisions** - Provide administrators with clear metrics and trends to guide strategy.
 
 ---
 
@@ -84,10 +79,10 @@ The dashboard is divided into several analytical sections.
 
 The home page introduces the dashboard and explains:
 
-• Purpose of the system
-• Why it was developed
-• How the analytics pipeline works
-• How users should navigate and interact with the dashboard
+-  Purpose of the system
+-  Why it was developed
+-  How the analytics pipeline works
+-  How users should navigate and interact with the dashboard
 
 This ensures stakeholders understand the context before exploring the analytics views.
 
@@ -99,33 +94,25 @@ The Executive Overview provides a high-level snapshot of enrollment and retentio
 
 ### Key Metrics
 
-• Total Applicants
-• Enrollment Rate
-• First-Term Retention Rate
-• High-Risk Student Percentage
-• Average Risk Score
+- Total Applicants
+- Enrollment Rate
+- First-Term Retention Rate
+- High-Risk Student Percentage
+- Average Risk Score
 
 ### Visualizations
 
-**Admissions Funnel**
-Shows the number of students progressing through:
+**Admissions Funnel** - Shows the number of students progressing through: *Admitted → Orientation → Enrolled → Retained*
 
-Admitted → Orientation → Enrolled → Retained
+**Retention by Risk Level** - Demonstrates how risk level impacts first-term retention.
 
-**Retention by Risk Level**
-Demonstrates how risk level impacts first-term retention.
+**Enrollment by Risk Level** - Shows differences in enrollment probability across risk groups.
 
-**Enrollment by Risk Level**
-Shows enrollment probability differences across risk groups.
+**Risk Distribution** - Displays how students are distributed across risk categories.
 
-**Risk Distribution**
-Displays how students are distributed across risk categories.
+**Top Risk Factors** - Identifies the most common drivers of high-risk students.
 
-**Top Risk Factors**
-Identifies the most common drivers of high-risk students.
-
-**International vs Domestic Risk Comparison**
-Examines whether risk scores differ by student type.
+**International vs Domestic Risk Comparison** - Examines whether risk scores differ by student type.
 
 ---
 
@@ -135,11 +122,9 @@ This page focuses on identifying and understanding the **root causes of student 
 
 ### Key Visualizations
 
-**Driver Ranking Chart**
-Ranks the most common risk drivers among high-risk students.
+* **Driver Ranking Chart** - Ranks the most common risk drivers among high-risk students.
 
-**Engagement vs Risk Scatter Plot**
-Shows the relationship between LMS login activity and student risk levels.
+* **Engagement vs Risk Scatter Plot** - Shows the relationship between LMS login activity and student risk levels.
 
 This helps student success teams determine which behaviors correlate most strongly with risk.
 
@@ -151,10 +136,10 @@ The Student Drilldown page provides a detailed view for individual students.
 
 Users can:
 
-• Select a specific student ID
-• View their risk score and classification
-• Identify the factors contributing to their risk level
-• Review recommended intervention actions
+- Select a specific student ID
+- View their risk score and classification
+- Identify the factors contributing to their risk level
+- Review recommended intervention actions
 
 The page also displays a **cohort snapshot of the highest-risk students**, allowing counselors to quickly identify where support may be needed.
 
@@ -166,18 +151,18 @@ The What-If Simulator allows users to test how common interventions may reduce s
 
 Simulated actions include:
 
-• Completing orientation
-• Contacting an academic advisor
-• Participating in a support program
-• Increasing LMS engagement
-• Submitting assignments early
+- Completing orientation
+- Contacting an academic advisor
+- Participating in a support program
+- Increasing LMS engagement
+- Submitting assignments early
 
 The system recalculates the student’s risk score and displays:
 
-• Risk score before intervention
-• Risk score after intervention
-• Estimated enrollment probability
-• Estimated retention probability
+- Risk score before intervention
+- Risk score after intervention
+- Estimated enrollment probability
+- Estimated retention probability
 
 This feature demonstrates how targeted actions could improve student outcomes.
 
@@ -187,10 +172,10 @@ This feature demonstrates how targeted actions could improve student outcomes.
 
 The dashboard includes filters that allow users to analyze specific student populations:
 
-• Student Type
-• Program
-• International Status
-• Risk Level
+- Student Type
+- Program
+- International Status
+- Risk Level
 
 These filters dynamically update all charts and metrics, enabling deeper exploration of patterns across different groups.
 
@@ -225,20 +210,15 @@ project-folder
 
 ### File Description
 
-**app.py**
-Main Streamlit application file containing dashboard logic and visualizations.
+**app.py** - Main Streamlit application file containing dashboard logic and visualizations.
 
-**student_retention_final.csv**
-Dataset containing simulated student engagement indicators.
+**student_retention_final.csv** - Dataset containing simulated student engagement indicators.
 
-**slu.png**
-Saint Louis University branding logo used in the dashboard UI.
+**slu.png** - Saint Louis University branding logo used in the dashboard UI.
 
-**requirements.txt**
-List of required Python dependencies.
+**requirements.txt** - List of required Python dependencies.
 
-**README.md**
-Project documentation and overview.
+**README.md** - Project documentation and overview.
 
 ---
 
@@ -266,10 +246,10 @@ Streamlit will automatically open the dashboard in your browser.
 
 The analysis reveals several important patterns:
 
-• Students who miss orientation are significantly more likely to be high risk.
-• Low LMS activity strongly correlates with lower retention probability.
-• Students who do not contact an advisor early show higher enrollment uncertainty.
-• Engagement with support programs reduces overall risk scores.
+- Students who miss orientation are significantly more likely to be high risk.
+- Low LMS activity strongly correlates with lower retention probability.
+- Students who do not contact an advisor early show higher enrollment uncertainty.
+- Engagement with support programs reduces overall risk scores.
 
 These insights highlight the importance of early student engagement.
 
@@ -288,11 +268,11 @@ The dashboard is not an official Saint Louis University system.
 
 Potential enhancements for a production environment include:
 
-• Integration with real student information systems (SIS)
-• Machine learning risk prediction models
-• Automated intervention recommendations
-• Real-time data pipelines
-• Counselor workflow integration
+- Integration with real student information systems (SIS)
+- Machine learning risk prediction models
+- Automated intervention recommendations
+- Real-time data pipelines
+- Counselor workflow integration
 
 ---
 
@@ -302,5 +282,3 @@ Potential enhancements for a production environment include:
 Data Analyst | Data Science | Analytics & Visualization
 
 This project demonstrates my ability to design end-to-end analytical systems — from data modeling and risk scoring to interactive dashboard development and decision-support tools.
-
-If you'd like, I can also help you create a **short LinkedIn post for this project**. That will get much more attention from recruiters.
