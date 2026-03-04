@@ -80,7 +80,7 @@ The dashboard is divided into several analytical sections.
 
 ---
 
-# 🏠 Home Page
+## 🏠 Home Page
 
 The home page introduces the dashboard and explains:
 
@@ -93,7 +93,7 @@ This ensures stakeholders understand the context before exploring the analytics 
 
 ---
 
-# 📈 Executive Overview
+## 📈 Executive Overview
 
 The Executive Overview provides a high-level snapshot of enrollment and retention trends.
 
@@ -129,7 +129,7 @@ Examines whether risk scores differ by student type.
 
 ---
 
-# ⚠ Drivers & Interventions
+## ⚠ Drivers & Interventions
 
 This page focuses on identifying and understanding the **root causes of student risk**.
 
@@ -145,7 +145,7 @@ This helps student success teams determine which behaviors correlate most strong
 
 ---
 
-# 🔍 Student Drilldown
+## 🔍 Student Drilldown
 
 The Student Drilldown page provides a detailed view for individual students.
 
@@ -160,7 +160,7 @@ The page also displays a **cohort snapshot of the highest-risk students**, allow
 
 ---
 
-# 🧪 What-If Intervention Simulator
+## 🧪 What-If Intervention Simulator
 
 The What-If Simulator allows users to test how common interventions may reduce student risk.
 
