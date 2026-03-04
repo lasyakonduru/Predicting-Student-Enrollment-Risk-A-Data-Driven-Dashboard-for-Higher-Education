@@ -7,8 +7,8 @@ import base64
 # -----------------------------
 # Paths
 # -----------------------------
-DATA_PATH = "C:\ASSIGNMENTS\project\student_retention_final.csv"
-LOGO_PATH = "C:\ASSIGNMENTS\project\slu.png"  # change to "slu.png" if running locally
+DATA_PATH = "student_retention_final.csv"
+LOGO_PATH = "slu.png"  # change to "slu.png" if running locally
 
 # -----------------------------
 # Page config
@@ -20,7 +20,7 @@ st.set_page_config(
 )
 
 # -----------------------------
-# CSS (PowerBI-like blue theme)
+# CSS (Power BI-like blue theme)
 # -----------------------------
 CSS = """
 <style>
@@ -677,4 +677,5 @@ else:
 
             st.success(
                 "This is explainable and action-oriented. We can operationalize these interventions through outreach workflows."
+
             )
